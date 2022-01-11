@@ -17,7 +17,8 @@ console.log("Exercise One"); // Do not modify the lines like this before each ex
 //     fence
 let sentence = ["The", "dog", "jumped", "over", "the", "fence"];
 // Write your code here 👇
-
+console.log(sentence[2])
+console.log(sentence[sentence.length -1])
 
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Two");
@@ -32,7 +33,8 @@ console.log("Exercise Two");
 //     28
 let numbers = [3, 4, 5, 7, 9];
 // Write your code here 👇
-
+let sum = numbers[0] + numbers[1] + numbers[2] + numbers[3] + numbers[4]
+console.log(sum)
 
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Three");
@@ -42,7 +44,9 @@ console.log("Exercise Three");
 // - Log that array to the console.
 // - Then Log the length of the array to the console (it should print 5)
 // Write your code here 👇
-
+let colors = ["Red", "Green", "Blue", "Orange", "Purple"]
+console.log(colors)
+console.log(colors.length)
 
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Four");
@@ -54,7 +58,14 @@ console.log("Exercise Four");
 let names = []; // Don't modify this line.
 let index = 2;
 // Write your code here 👇
-
+names.push("Paul")
+names.push("Frank")
+names.push("Anne")
+names.push("John")
+names.push("Belle")
+console.log(names)
+names[index] = "Joe"
+console.log(names)
 
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Five");
@@ -66,7 +77,8 @@ console.log("Exercise Five");
 let firstArray = ["This", "will", "make"];
 let secondArray = ["a", "combined", "array."];
 // Write your code here 👇
-
+let fullArray = firstArray.concat(secondArray)
+console.log(fullArray)
 
 
 // When you are done with all of the exercises, check your console output to make sure it
